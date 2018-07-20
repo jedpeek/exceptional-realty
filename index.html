@@ -5,47 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
   </head>
   <body>
-    <div id="social">
-      <a class="twit" href="#" title="Twitter">Twitter</a>
-      <a class="fbook" href="#" title="Facebook">Facebook</a>
-      <a class="gplus" href="#" title="Google Plus">Google Plus</a>
-    </div>
+<h1>BOOTSTRAP</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          Nav Bar
+        </div>
+      </div>
 
-    <div class="white-wood">
-      <header class="medium-fade shadow">
-        <div class="wrapper">
-          <div id="logo">
-            <h1>Exceptional Realty Group</h1>
-            <h2>Exceptional Realty Group</h2>
-          </div>
-        </div><!-- .wrapper -->
-        <div id="navbar" class="light-fade">
-          <div class="wrapper">
-            <nav class="clearfix">
-              <a class="selected" href="index.html">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a><a class="menu-icon">&#9776;</a>
-            </nav>
-          </div><!-- .wrapper -->
-        </div><!-- #navbar -->
-      </header>
-
-      <div class="wrapper clearfix">
-
-        <section id="featured-property" class="col-3 first shadow">
+      <div class="row">
+        <div class="col-sm-12">
           <figure>
-            <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+            <img class = "image-responsive" src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
             <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
           </figure>
 
           <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
         </section>
+        </div>
+      </div>
 
-        <section id="promotional" class="col-2 first shadow">
+      <div class = "row">
+        <div class="col-sm-8">
           <figure>
             <video controls>
               <source src="videos/real-estate.mp4" type="video/mp4">
@@ -54,19 +41,18 @@
             </video>
             <figcaption>Exceptional Realty Group Promotional Video - Source: archive.org</figcaption>
           </figure>
-        </section>
+        </div>
+        <div class="col-sm-4">
+            <h3>Company News</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatum, inventore, vero, rerum ullam nihil sapiente tempora
+              molestias quis ducimus ipsum laborum vel. Tempore perspiciatis
+              ea error dignissimos libero recusandae explicabo.</p>
+        </div>
+      </div>
 
-        <section id="news" class="col-1 shadow">
-          <h3>Company News</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, inventore, vero, rerum ullam nihil sapiente tempora molestias quis ducimus ipsum laborum vel. Tempore perspiciatis ea error dignissimos libero recusandae explicabo.</p>
-        </section>
-
-      </div><!-- .wrapper -->
-    </div><!-- .white-wood -->
-
-    <section id="details" class="medium-fade">
-      <div class="wrapper clearfix">
-        <div class="col-1 first border-right">
+      <div class="row">
+        <div class="col-sm-4">
           <h3>Contact</h3>
           <p>
             email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
@@ -79,8 +65,7 @@
             Brooklyn, NY 11201
           </address>
         </div>
-
-        <div class="col-1 border-right">
+        <div class="col-sm-4">
           <h3>Links</h3>
           <p>
             <a href="#" target="_blank">Home Restoration</a><br>
@@ -88,8 +73,7 @@
             <a href="#" target="_blank">Professional Moving Crew</a>
           </p>
         </div>
-
-        <div class="col-1">
+        <div class="col-sm-4">
           <h3>Follow</h3>
           <p>
             <a href="#" target="_blank">YouTube</a><br>
@@ -97,12 +81,77 @@
             <a href="#" target="_blank">Twitter</a>
           </p>
         </div>
-      </div><!-- .wrapper -->
+      </div>
+
+      <div class="row"> <!--Footer -->
+      <div class="col-sm-12">
+        &copy; 2014 Exceptional Realty. All Rights Reserved.
+      </div>
+    </div>
+
+  </div> <!--Close Cnotainer -->
+</body>
+</html>
+<!--
+<div id="social">
+  <a class="twit" href="#" title="Twitter">Twitter</a>
+  <a class="fbook" href="#" title="Facebook">Facebook</a>
+  <a class="gplus" href="#" title="Google Plus">Google Plus</a>
+</div>
+
+<div class="white-wood">
+  <header class="medium-fade shadow">
+    <div class="wrapper">
+      <div id="logo">
+        <h1>Exceptional Realty Group</h1>
+        <h2>Exceptional Realty Group</h2>
+      </div>
+    </div><
+    <div id="navbar" class="light-fade">
+      <div class="wrapper">
+        <nav class="clearfix">
+          <a class="selected" href="index.html">About</a><a href="new-properties.html">New Properties</a><a href="real-estate-listings.html">Listings</a><a href="market-report.html">Market Report</a><a href="contact.html">Contact</a><a href="http://hud.gov" target="_blank">H.U.D.</a><a class="menu-icon">&#9776;</a>
+        </nav>
+      </div>
+    </div><
+  </header>
+
+  <div class="wrapper clearfix">
+
+    <section id="featured-property" class="col-3 first shadow">
+      <figure>
+        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+        <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
+      </figure>
+
+      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
     </section>
 
-    <footer>
-      &copy; 2014 Exceptional Realty. All Rights Reserved.
-    </footer>
+    <section id="promotional" class="col-2 first shadow">
 
-  </body>
-</html>
+    </section>
+
+
+
+  </div>
+</div>
+
+<section id="details" class="medium-fade">
+  <div class="wrapper clearfix">
+    <div class="col-1 first border-right">
+
+    </div>
+
+    <div class="col-1 border-right">
+
+    </div>
+
+    <div class="col-1">
+
+    </div>
+  </div>
+</section>
+
+<footer>
+
+</footer>
